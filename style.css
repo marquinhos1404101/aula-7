@@ -29,8 +29,8 @@ ul a{
     color: white;
     filter: drop-shadow(0 0 2px rgb(0 0 0/80%));
 }
-ul a img{
-    color: white;
+ul li img{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(266%) hue-rotate(282deg) brightness(108%) contrast(101%);
 }
 button{
     background-color: black;
